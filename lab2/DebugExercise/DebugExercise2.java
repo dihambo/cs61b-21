@@ -17,7 +17,7 @@ public class DebugExercise2 {
 //    }
 
     /** Returns the max of a and b. Fixed the bug of original max() function. */
-    public static int max_Fixed(int a, int b){
+    public static int max(int a, int b){
         return Math.max(a, b);
     }
 
@@ -51,7 +51,7 @@ public class DebugExercise2 {
         }
         int[] returnArray = new int[a.length];
         for (int i = 0; i < a.length; i += 1) {
-            int biggerValue = max_Fixed(a[i], b[i]);
+            int biggerValue = max(a[i], b[i]);
             returnArray[i] = biggerValue;
         }
 
